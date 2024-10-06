@@ -1,0 +1,298 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* full Screen  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+/* name or logo */
+.logo{
+    font-size: large;
+    padding: 0;
+    margin: 0;
+    text-indent: 20px;
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+}
+
+/* body  */
+body{
+    width: 100%;
+    height: auto;
+    outline: none;
+    border: none;
+    background-image: url(img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
+/* full navigation bar  */
+.upper-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 3px rgb(255, 255, 255);
+    box-shadow: -2px 0 10px #000000;
+    border-radius: 40px;
+    align-items: center;
+    margin: 10px;
+    margin-top: 30px;
+    padding-inline: 10px;
+    background: transparent;
+    text-decoration: none;
+
+}
+
+/* content of navigation bar  */
+.navigation-bar{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    backdrop-filter: blur(1000px);
+    
+}
+
+/* all single contents of navigation bar  */
+.home{
+    display: flex;
+    text-decoration: none;
+    color: azure;
+    font-size: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+.collection{
+    display: flex;
+    text-decoration: none;
+    color: azure;
+    font-size: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+.register{
+    display: flex;
+    text-decoration: none;
+    color: azure;
+    font-size: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+.login{
+    display: flex;
+    text-decoration: none;
+    color: azure;
+    font-size: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+.account{
+    display: flex;
+    text-decoration: none;
+    color: azure;
+    font-size: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+
+/* navigation bar hover  */
+.upper-content .navigation-bar a:hover{
+    text-decoration:underline;
+    font-weight: 700;
+ }
+
+/* full feature box  */
+ .feature_area{
+    background-image: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;
+    border: transparent 1px rgb(255, 255, 255);
+    box-shadow: -2px 0 10px #000000;
+    border-radius: 40px;
+    align-items: center;
+    margin: 15px 10px;
+    margin-top: 20px;
+    padding-inline: 10px;
+    text-decoration: none;
+    color: azure;
+    overflow: hidden;
+    
+ }
+
+/* header of feature box */
+ .feature_area h2{
+    font-size: medium;
+    padding: 20px;
+    
+ }
+
+ /* description of feature box  */
+.feature-text{
+    border: 1px transparent;
+    border-radius: 30px;
+    box-shadow: -2px 0 10px #000000;
+    padding: 10px;
+    width: 30%;
+    margin-left: 5px;
+    margin-right: auto;
+    font-size: 10px;  
+}
+
+/* buttons in feature box */
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+    margin-left: 13px;
+    
+
+}
+
+/* each button in fiture box singlly */
+.button{
+    text-decoration: none;
+    color: azure;
+    font-size: small;
+    padding: 3px 7px;
+    border: 1px solid white;
+    border-radius: 40px;
+    outline: none;
+    display: inline-block;
+    background: transparent;
+    backdrop-filter: blur(100px);
+}
+
+/* top content area full section (1st content section) */
+.contents{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    display: flex;
+
+ 
+
+}
+
+/* inner contents of 1st content section  */
+.incontent{
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    border: 2px transparent;
+    border-radius: 30px;
+    box-shadow: -2px 0 10px #000000;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(100px);
+    overflow: hidden;
+
+    
+
+}
+
+/* hyperlink texts of 1st content boxs inner content  */
+.incontent a{
+    color: azure;
+    font-size: small;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+/* image of first content box  */
+.detailedimg{
+    width: 200px;
+    height: auto;
+    
+    
+}
+
+
+
+/* 2nd content area full section  */
+.contents_2{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    display: flex;
+
+}
+
+/* inner content of 2nd content section each */
+.incontent2{
+    width: 100%;
+    height: 350px;
+    margin: 10px;
+    border: 2px transparent;
+    border-radius: 30px;
+    box-shadow: -2px 0 10px #000000;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(100px);
+    overflow: hidden;
+
+}
+
+/* header of 2nd content boxs inner content  */
+.incontent2 h3{
+    color: azure;
+    font-size: small;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+/* details of all nft of 2nd content section  */
+.incontent2 p{
+    color: azure;
+    font-size: 10px;
+    padding-top: 10px;
+    font-weight: 200;
+}
+
+/* image of nft of 2nd content section  */
+.detailedimg2{
+    width: 200px;
+    height: auto;
+}
+
+/* footer area  */
+footer{
+    color: azure;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    box-shadow: -2px 0 10px #000000;
+    padding: 20px;
+    margin: 10px 30px;
+    margin-bottom: 30px;
+
+
+}
+
+/* header of footer  */
+footer h1{
+    font-weight: 500;
+}
+
+/* description about site  */
+footer p{
+    font-size: small;
+    font-weight: 300;
+}
+
